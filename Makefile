@@ -6,7 +6,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python tests/test.py
+	python -m unittest tests/test.py
 
 
 lint:
