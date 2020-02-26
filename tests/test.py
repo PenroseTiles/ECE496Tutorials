@@ -7,7 +7,7 @@ class TestCases(unittest.TestCase):
 		self.assertEqual(1, 1)
 
 
-	def test_sanity(self):
+	def test_noop(self):
 		self.assertEqual(code.no_op(), 20)
 
 if __name__ == "__main__":
