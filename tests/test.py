@@ -7,10 +7,8 @@ class TestCases(unittest.TestCase):
 		self.assertEqual(1, 1)
 
 
-	'''
-	Add your own test cases here
-	function name must start with test_
-	'''
+	def test_sanity(self):
+		self.assertEqual(code.no_op(), 20)
 
 if __name__ == "__main__":
 	unittest.main()
